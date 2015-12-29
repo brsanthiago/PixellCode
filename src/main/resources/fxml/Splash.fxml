@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="600.0" stylesheets="@../css/estilo.css" xmlns="http://javafx.com/javafx/8.0.66" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wordpress.pixellcode.controller.SplashController">
+   <children>
+      <Text fx:id="txtNomeApp" fill="WHITE" layoutX="119.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Splash Screen – JavaFX" textAlignment="CENTER" wrappingWidth="540.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <ProgressBar fx:id="pgbStatus" layoutX="123.0" layoutY="191.0" prefHeight="15.0" prefWidth="277.0" progress="0.0" AnchorPane.bottomAnchor="135.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="191.0" />
+      <Label fx:id="lblVersao" layoutX="16.0" layoutY="308.0" text="PixellCode - V 1.0.0.1-Realease" textFill="WHITE" />
+   </children>
+</AnchorPane>
